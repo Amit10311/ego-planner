@@ -70,7 +70,7 @@ Please cite at least one of our papers if you use this project in your research:
 - [__RAPTOR: Robust and Perception-aware Trajectory Replanning for Quadrotor Fast Flight__](https://arxiv.org/abs/2007.03465), Boyu Zhou, Jie Pan, Fei Gao and Shaojie Shen, submitted to IEEE Transactions on Robotics (__T-RO__), under review. 
 
 
-All planning algorithms along with other key modules, such as mapping, are implemented in __fast_planner__:
+All planning algorithms along with other key modules, such as mapping, are implemented in __ego_planner__:
 
 - __plan_env__: The online mapping algorithms. It takes in depth image (or point cloud) and camera pose (odometry) pairs as input, do raycasting to update a probabilistic volumetric map, and build an Euclidean signed distance filed (ESDF) for the planning system. 
 - __path_searching__: Front-end path searching algorithms. 
