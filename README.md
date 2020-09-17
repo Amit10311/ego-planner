@@ -4,9 +4,6 @@
 * [Related Papers ](#2-Related-Paper)
 * [Algorithms and Papers](#3-Algorithms-and-Papers)
 * [Standard Compilation](#4-Standard-Compilation)
-* [Run Simulations](#5-run-simulations)
-* [Use in Your Application](#6-use-in-your-application)
-* [News](#6-news)
 
 
 ## 1. Quick Start
