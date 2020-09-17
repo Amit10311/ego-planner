@@ -3,7 +3,7 @@
 * [Quick Start](#1-Quick-Start)
 * [Related Papers ](#2-Related-Paper)
 * [Algorithms and Papers](#3-Algorithms-and-Papers)
-* [Setup and Config](#4-Setup-and-Config)
+* [Standard Compilation](#4-Standard-Compilation)
 * [Run Simulations](#5-run-simulations)
 * [Use in Your Application](#6-use-in-your-application)
 * [News](#6-news)
@@ -86,7 +86,7 @@ All planning algorithms along with other key modules, such as mapping, are imple
 
 
 
-## 2. Standard Compilation
+## 4. Standard Compilation
 
 **Requirements**: ubuntu 16.04, 18.04 or 20.04 with ros-desktop-full installation.
 
