@@ -154,56 +154,8 @@ More information can be found in [http://www.thinkwiki.org/wiki/How_to_use_cpufr
 
 Note that CPU frequency may still decrease due to high temperature in high load.
 
-# Improved ROS-RealSense Driver
 
-We modified the ros-relasense driver to enable the laser emitter strobe every other frame, allowing the device to output high quality depth images with the help of emitter, and along with binocular images free from laser interference.
 
-<p align = "center">
-<img src="pictures/realsense.PNG" width = "640" height = "158" border="5" />
-</p>
-
-This ros-driver is modified from [https://github.com/IntelRealSense/realsense-ros](https://github.com/IntelRealSense/realsense-ros) and is compatible with librealsense2 2.30.0.
-Tests are performed on Intel RealSense D435 and D435i.
-
-Parameter ```emitter_on_off``` is to turn on/off the added function.
-Note that if this function is turned on, the output frame rate from the device will be reduced to half of the frame rate you set, since the device uses half of the stream for depth estimation and the other half as binocular grayscale outputs.
-What's more, parameters ```depth_fps``` and ```infra_fps``` must be identical, and ```enable_emitter``` must be true as well under this setting.
-
-##  Install
-
-The driver of librealsense2 2.30.0 should be installed explicitly.
-On a x86 CPU, this can be performed easily within 5 minutes.
-Firstly, remove the currently installed driver by 
-```
-sudo apt remove librealsense2-utils
-```
-or manually remove the files if you have installed the librealsense from source.
-Then, you can install the library of version 2.30.0 by
-```
-sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
-```
-For ubuntu 16.04
-```
-sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo xenial main" -u
-```
-For ubuntu 18.04
-```
-sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u
-```
-Then continue with
-```
-sudo apt-get install librealsense2-dkms
-sudo apt install librealsense2=2.30.0-0~realsense0.1693
-sudo apt install librealsense2-gl=2.30.0-0~realsense0.1693
-sudo apt install librealsense2-utils=2.30.0-0~realsense0.1693
-sudo apt install librealsense2-dev=2.30.0-0~realsense0.1693
-sudo apt remove librealsense2-udev-rules
-sudo apt install librealsense2-udev-rules=2.30.0-0~realsense0.1693
-``` 
-Here you can varify the installation by 
-```
-realsense-viewer
-```
 
 ##  Run
 
@@ -226,12 +178,3 @@ roslaunch so3_quadrotor_simulator simulator_example.launch
 to run a simple example in ego-planner/src/uav_simulator/so3/control/src/control_example.cpp.
 If this simulator is helpful to you, plaease kindly give a star to [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) as well.-->
 
-# Licence
-The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
-
-# Maintaince
-We are still working on extending the proposed system and improving code reliability. 
-
-For any technical issues, please contact Xin Zhou (iszhouxin@zju.edu.cn) or Fei GAO (fgaoaa@zju.edu.cn).
-
-For commercial inquiries, please contact Fei GAO (fgaoaa@zju.edu.cn).
