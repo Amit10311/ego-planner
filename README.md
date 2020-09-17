@@ -3,7 +3,7 @@ Compiling tests passed on ubuntu **16.04, 18.04 and 20.04** with ros installed.
 You can just execute the following commands one by one.
 ```
 sudo apt-get install libarmadillo-dev
-git clone https://github.com/ZJU-FAST-Lab/ego-planner.git
+git clone https://github.com/Amit10311/ego-planner.git 
 cd ego-planner
 catkin_make
 source devel/setup.bash
