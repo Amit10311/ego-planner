@@ -129,7 +129,7 @@ Then you can follow the gif below to control the drone.
 4. http://wiki.ros.org/pcl_ros
 
 ```
-rosrun pcl_ros pointcloud_to_pcd input:=/velodyne/pointcloud2
+rosrun pcl_ros pointcloud_to_pcd input:=/topic_name
 ```
 
 
