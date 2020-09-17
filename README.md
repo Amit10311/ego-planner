@@ -96,7 +96,8 @@ sudo apt-get install libarmadillo-dev
 
 From github,
 ```
-git clone https://github.com/bigsuperZZZX/ego-planner.git
+   git clone https://github.com/Amit10311/ego-planner.git 
+   
 ```
 
 
