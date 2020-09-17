@@ -2,7 +2,7 @@
 
 * [Quick Start](#1-Quick-Start)
 * [Related Papers ](#2-Related-Paper)
-* [Algorithms and Papers](#2.1-Algorithms-and-Papers)
+* [Algorithms and Papers](#2-1-Algorithms-and-Papers)
 * [Setup and Config](#3-Setup-and-Config)
 * [Run Simulations](#4-run-simulations)
 * [Use in Your Application](#5-use-in-your-application)
