@@ -132,3 +132,12 @@ Then you can follow the gif below to control the drone.
 rosrun pcl_ros pointcloud_to_pcd input:=/velodyne/pointcloud2
 ```
 
+
+```
+cd ego-planner/
+cd src/
+rosrun map_generated pcl_info
+```
+
+
+
