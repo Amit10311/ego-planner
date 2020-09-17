@@ -2,7 +2,7 @@
 
 * [Quick Start](#1-Quick-Start)
 * [Related Papers ](#2-Related-Paper)
-* [Algorithms and Papers](#2-Algorithms-and-Papers)
+* [Algorithms and Papers](#2.1-Algorithms-and-Papers)
 * [Setup and Config](#3-Setup-and-Config)
 * [Run Simulations](#4-run-simulations)
 * [Use in Your Application](#5-use-in-your-application)
@@ -56,7 +56,7 @@ EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors
 ## 2. Related Paper
 EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors, Xin Zhou, Zhepei Wang, Chao Xu and Fei Gao (Submitted to RA-L). [Preprint](https://arxiv.org/abs/2008.08835).
 
-## 2. Fast Algorithms and Papers
+## 2.1. Fast Algorithms and Papers
 
 The project contains a collection of robust and computationally efficient algorithms for quadrotor fast flight:
 * Kinodynamic path searching
