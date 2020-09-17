@@ -120,4 +120,15 @@ Then you can follow the gif below to control the drone.
 
 ## 5. Pcl links
 
+1. https://pointclouds.org/documentation/tutorials/writing_pcd.html
+
+2. https://pointclouds.org/documentation/tutorials/pcd_file_format.html
+
+3. https://pcl.readthedocs.io/projects/tutorials/en/latest/
+
+4. http://wiki.ros.org/pcl_ros
+
+```
+rosrun pcl_ros pointcloud_to_pcd input:=/velodyne/pointcloud2
+```
 
