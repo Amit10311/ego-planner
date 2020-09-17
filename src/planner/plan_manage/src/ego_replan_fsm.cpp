@@ -106,6 +106,8 @@ namespace ego_planner
     }
   }
 
+  // Way point of path subscriber 
+  
   void EGOReplanFSM::waypointCallback(const nav_msgs::PathConstPtr &msg)
   {
     if (msg->poses[0].pose.position.z < -0.1)
@@ -152,6 +154,9 @@ namespace ego_planner
     }
   }
 
+  
+  // odometry subscriber 
+  
   void EGOReplanFSM::odometryCallback(const nav_msgs::OdometryConstPtr &msg)
   {
     odom_pos_(0) = msg->pose.pose.position.x;
