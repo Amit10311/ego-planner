@@ -85,7 +85,7 @@ All planning algorithms along with other key modules, such as mapping, are imple
 
 ## 4. Standard Compilation
 
-**Requirements**: ubuntu 16.04, 18.04 or 20.04 with ros-desktop-full installation.
+**Requirements**: ubuntu 16.04, 18.04 with ros-desktop-full installation.
 
 **Step 1**. Install [Armadillo](http://arma.sourceforge.net/), which is required by **uav_simulator**.
 ```
