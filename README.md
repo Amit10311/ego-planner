@@ -79,11 +79,10 @@ All planning algorithms along with other key modules, such as mapping, are imple
 - __path_searching__: Front-end path searching algorithms. 
   Currently it includes a kinodynamic path searching that respects the dynamics of quadrotors.
   It also contains a sampling-based topological path searching algorithm to generate multiple topologically distinctive paths that capture the structure of the 3D environments. 
-- __bspline__: A implementation of the B-spline-based trajectory representation.
 - __bspline_opt__: The gradient-based trajectory optimization using B-spline trajectory.
-- __active_perception__: Perception-aware planning strategy, which enable to quadrotor to actively observe and avoid unknown obstacles, to appear in the future.
 - __plan_manage__: High-level modules that schedule and call the mapping and planning algorithms. Interfaces for launching the whole system, as well as the configuration files are contained here.
 
+- __traj_utilis__: Perception-aware planning strategy, which enable to quadrotor to actively observe and avoid unknown obstacles, to appear in the future.
 
 
 
