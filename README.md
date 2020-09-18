@@ -83,7 +83,7 @@ All planning algorithms along with other key modules, such as mapping, are imple
 sudo apt-get install libarmadillo-dev
 ``` 
 
-**Step 2**. Clone the code from github or gitee. This two repositories synchronize automaticly.
+**Step 2**. Clone the code from github.
 
 From github,
 ```
