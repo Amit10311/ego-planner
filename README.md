@@ -128,6 +128,7 @@ Then you can follow the gif below to control the drone.
 
 4. http://wiki.ros.org/pcl_ros
 
+5. https://github.com/HKUST-Aerial-Robotics/pointcloudTraj
 ```
 rosrun pcl_ros pointcloud_to_pcd input:=/topic_name
 ```
