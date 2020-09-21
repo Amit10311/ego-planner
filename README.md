@@ -139,5 +139,40 @@ cd src/
 rosrun map_generated pcl_info
 ```
 
+Changes in simple_run.launch
+
+```
+    <!--always set to 1.5 times grater than sensing horizen-->
+    <arg name="planning_horizen" value="12" /> 
+
+    <!-- 1: use 2D Nav Goal to select goal  -->
+    <!-- 2: use global waypoints below  -->
+    <arg name="flight_type" value="2" />
+    
+    <!-- global waypoints -->
+    <!-- It generates a piecewise min-snap traj passing all waypoints -->
+    <arg name="point_num" value="5" />
+
+    <arg name="point0_x" value="-45.0" />
+    <arg name="point0_y" value="0.0" />
+    <arg name="point0_z" value="20.0" />
+
+    <arg name="point1_x" value="0.0" />
+    <arg name="point1_y" value="49.0" />
+    <arg name="point1_z" value="20.0" />
+
+    <arg name="point2_x" value="50.0" />
+    <arg name="point2_y" value="0.0" />
+    <arg name="point2_z" value="20.0" />
+
+    <arg name="point3_x" value="0.0" />
+    <arg name="point3_y" value="-45.0" />
+    <arg name="point3_z" value="20.0" />
+
+    <arg name="point4_x" value="-45.0" />
+    <arg name="point4_y" value="0.0" />
+    <arg name="point4_z" value="20.0" />
+  ``` 
+
 
 
