@@ -142,7 +142,7 @@ rosrun map_generated pcl_info
 Changes in simple_run.launch
 
 ```
-    <!--always set to 1.5 times grater than sensing horizen-->
+    <!--always set to 1.5 times grater than sensing horizen, when we are having static objects dimenion bigger we need greator sensing horizon-->
     <arg name="planning_horizen" value="12" /> 
 
     <!-- 1: use 2D Nav Goal to select goal  -->
