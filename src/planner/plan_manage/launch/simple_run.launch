@@ -46,23 +46,23 @@
     <!-- It generates a piecewise min-snap traj passing all waypoints -->
     <arg name="point_num" value="5" />
 
-    <arg name="point0_x" value="15.0" />
+    <arg name="point0_x" value="-45.0" />
     <arg name="point0_y" value="0.0" />
     <arg name="point0_z" value="20.0" />
 
     <arg name="point1_x" value="0.0" />
-    <arg name="point1_y" value="15.0" />
+    <arg name="point1_y" value="49.0" />
     <arg name="point1_z" value="20.0" />
 
-    <arg name="point2_x" value="15.0" />
+    <arg name="point2_x" value="50.0" />
     <arg name="point2_y" value="0.0" />
     <arg name="point2_z" value="20.0" />
 
     <arg name="point3_x" value="0.0" />
-    <arg name="point3_y" value="-15.0" />
+    <arg name="point3_y" value="-45.0" />
     <arg name="point3_z" value="20.0" />
 
-    <arg name="point4_x" value="-15.0" />
+    <arg name="point4_x" value="-45.0" />
     <arg name="point4_y" value="0.0" />
     <arg name="point4_z" value="20.0" />
     
@@ -90,7 +90,7 @@
     <arg name="map_size_z_" value="$(arg map_size_z)"/>
     <arg name="c_num" value="200"/>
     <arg name="p_num" value="200"/>
-    <arg name="min_dist" value="1.2"/>
+    <arg name="min_dist" value="3"/>
 
     <arg name="odometry_topic" value="$(arg odom_topic)" />
   </include>
