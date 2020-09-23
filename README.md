@@ -174,6 +174,20 @@ Changes in simple_run.launch
     <arg name="point4_y" value="0.0" />
     <arg name="point4_z" value="20.0" />
   ``` 
+  
+Changes in simulator_new.xml
 
+```
+<arg name="path" default="/home/amit/uav_ego_upadte/src/ego-planner/src/3880_5818.bt"/>
+
+   <node pkg="octomap_server" type="octomap_server_node" name="octomap_talker" output="screen" args="$(arg path)">
+      <remap from="/octomap_point_cloud_centers" to="/map_generator/global_cloud"/>
+   </node> 
+
+   <node pkg="tf"
+        type="static_transform_publisher"
+        name="map_broadcaster"
+        args="0 0 0 0 0 0 world map 100" /> 
+  ``` 
 
 
