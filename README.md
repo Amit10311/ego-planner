@@ -1,6 +1,6 @@
 ## Table of Contents
 
-* [Quick Start](#1-Quick-Start)
+* [Installtion](#1-Installtion)
 * [Related Papers ](#2-Related-Paper)
 * [Algorithms and Papers](#3-Algorithms-and-Papers)
 * [Standard Compilation](#4-Standard-Compilation)
