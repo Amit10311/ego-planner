@@ -26,14 +26,6 @@ The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the follow
 ```
 
 
-
-# Acknowledgements
-- The framework of this repository is based on [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) by Zhou Boyu who achieves impressive proformance on quaorotor local planning.
-
-- The L-BFGS solver we use is from [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite). 
-It is a C++ head-only single file, which is lightweight and easy to use.
-
-
 # EGO-Planner 
 EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors
 
