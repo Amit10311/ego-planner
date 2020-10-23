@@ -13,14 +13,27 @@ You can just execute the following commands one by one.
 
 The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the following commands to setup:
 
+
 ```
   sudo apt-get install libnlopt-dev libarmadillo-dev
   cd ~/uav_ego_upadte}/src
-  cd ego-planner
+  cd ego-uav_ego_upadte
   catkin_make
   source devel/setup.bash
   roslaunch ego_planner simple_run_new.launch
 ```
+
+The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the following commands to setup:
+
+```
+  sudo apt-get install libnlopt-dev libarmadillo-dev
+  cd ~/ego_upadte}/src
+  cd ego-planner
+  catkin_make
+  source devel/setup.bash
+  roslaunch ego_planner simple_run.launch
+```
+
 
 
 # EGO-Planner 
