@@ -15,12 +15,11 @@ The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the follow
 
 ```
   sudo apt-get install libnlopt-dev libarmadillo-dev
-  cd ${YOUR_WORKSPACE_PATH}/src
-  git clone https://github.com/Amit10311/ego-planner.git 
+  cd ~/uav_ego_upadte}/src
   cd ego-planner
   catkin_make
   source devel/setup.bash
-  roslaunch ego_planner simple_run.launch
+  roslaunch ego_planner simple_run_new.launch
 ```
 
 
